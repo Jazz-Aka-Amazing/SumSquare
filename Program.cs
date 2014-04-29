@@ -9,15 +9,15 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int square1 = 0, square2 = 0, end ;
+            int number1 = 0, number2 = 0, end ;
             for (int i = 1; i <= 10; i++) 
             {
-                square2 += i;
-                square1 += i * i;
+                number2 += i;
+                number1 += i * i;
 
             }
-            square2 = square2 * square2;
-            end = square2 - square1;
+            number2 = number2 * number2;
+            end = number2 - number1;
             Console.WriteLine(end);
         }
     }
